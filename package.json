@@ -1,0 +1,12 @@
+{
+  "name": "crack-bcrypt-passwords",
+  "version": "1.0.0",
+  "description": "Crack bcrypt passwords",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1"
+  }
+}
