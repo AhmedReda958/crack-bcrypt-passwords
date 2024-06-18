@@ -35,4 +35,10 @@ or
 node index.js
 ```
 
+or
+
+```bash
+node index.js 'yourHashdPassword'
+```
+
 Make sure to create a `passwords.txt` file with your passwords, with each password on a separate line. Then, run the project.

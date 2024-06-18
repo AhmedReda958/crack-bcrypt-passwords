@@ -49,10 +49,16 @@ fs.readFile("passwords.txt", "utf8", async (err, data) => {
   // split the data by new line
   const passwordsList = data.split("\r\n");
   // get the password from the user
-  rl.question("Enter the hashed password: ", async (hashedPassword) => {
+  if (process.argv[2]) {
+    const hashedPassword = process.argv[2];
     // compare the password
     await comparePasswords(hashedPassword, passwordsList);
-  });
+  } else {
+    rl.question("Enter the hashed password: ", async (hashedPassword) => {
+      // compare the password
+      await comparePasswords(hashedPassword, passwordsList);
+    });
+  }
 });
 
 rl.on("close", () => {
