@@ -17,8 +17,8 @@ What things you need to install the software and how to install them:
 
 A step by step series of examples that tell you how to get a development environment running:
 
-1. Clone the repository: `git clone https://github.com/yourusername/yourrepository.git`
-2. Navigate into the directory: `cd yourrepository`
+1. Clone the repository: `git clone https://github.com/AhmedReda958/yourrepository.git`
+2. Navigate into the directory: `cd crack-bcrypt-passwords`
 3. Install the dependencies: `npm install`
 
 ### Usage
